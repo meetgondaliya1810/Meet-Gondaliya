@@ -1,52 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <center>
-        <h1>Registration Form</h1>
-        <table>
-        <form action="">
-            <tr>
-                <td>Name:</td>
-                <td><input type="text" name="name" id="name"></td>
+<html>
+    <head>
+        <title>signup</title>
+    </head>
+    <body bgcolor="lightyellow">
+
+        <center><h1>Signup Page</h1></center>
+        <form>
+            <table align="center" border="0">
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Address :</td>
+                    <td><textarea cols="10" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female</td>
+                </tr>
+                <tr>
+                <td>Country :</td>
+                <td><select>
+                    <option name="India">India</option>
+                    <option name="Australia">Australia</option>
+                    <option name="Germany">Germany</option>
+                    <option name="USA">USA</option>
+                    <option name="UK">UK</option>
+                </select></td>
             </tr>
             <tr>
-                <td>Address:</td>
-                <td><textarea name="add" id="add"></textarea></td>
+                <td>Image :</td>
+                <td><input type="file"></td>
             </tr>
             <tr>
-                <td>Gender:</td>
-                <td><input type="radio" name="gender" id="gender" value="Male">Male
-                <input type="radio" name="gender" id="gender" value="Female">Female</td>
+                <td>Mobile No. :</td>
+                <td><input type="number"></td>
             </tr>
             <tr>
-                <td>Email:</td>
-                <td><input type="text" name="email" id="email"></td>
+                <td>Email_id :</td>
+                <td><input type="email" name="email"></td>
             </tr>
             <tr>
-                <td>Mobile No.:</td>
-                <td><input type="number" name="mobile_no." id="mobile_no"></td>
-            </tr>
-            <tr>
+                <td>Education:</td>
                 <td>
-                    Country: 
-                </td>
-                <td>
-                    <select name="country" id="country">
-                        <option value="India">India</option>
-                        <option value="Australia">Australia</option>
-                        <option value="Germany">Germany</option>
-                        <option value="New York">New York</option>
-                        <option value="UK">UK</option>
+                    <select name="" id="">
+                        <option value="SSC">SSC</option>
+                        <option value="HSC">HSC</option>
+                        <option value="BCA">BCA</option>
+                        <option value="MCA">MCA</option>
                     </select>
                 </td>
             </tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+                <td><input type="submit" value="reset"></td>
+            </tr>
+            </table>
         </form>
-        </table>
-    </center>
-</body>
+    </body>
 </html>
